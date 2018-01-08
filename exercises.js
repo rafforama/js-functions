@@ -139,7 +139,11 @@ console.log(daDiva);
  * This function will return the string "Last night I dreamt that I ate `x` Taco Bell soft tacos."  Where `x` is the value when you invoke the function. Invoke this function using the variable `difference`.
  * Console.log your results.
 */ 
-
+function checkDifference(x){
+	return "Last night I dreamt that I ate " + x + " Taco bell soft tacos."
+}
+var differentDifference = checkDifference(bango1);
+console.log(differentDifference);
 
 
 /*
@@ -152,7 +156,10 @@ console.log(daDiva);
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
-
+function checkProduct(){
+	return sum + product;
+}
+console.log(checkProduct());
 
 
 /*
@@ -165,6 +172,10 @@ console.log(daDiva);
  * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
+function checkQuotient(){
+	return product * quotient;
+}
+console.log(checkQuotient());
 
 /*
  * Declare three variables
