@@ -281,7 +281,7 @@ console.log(eatFood("Biggie", "Smalls", "Won Ton Soup"));
 function inchesToCentimeter(inches){
 	return inches * 2.54;
 }
-console.log(inchesToCentimeter(2));
+console.log(inchesToCentimeter(bango1));
 
 
 /*
@@ -293,7 +293,10 @@ console.log(inchesToCentimeter(2));
  * Example input: "believe you can and you're halfway there."
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
- 
+ function allCaps(str){
+ 	return str.toUpperCase();
+ }
+ console.log(allCaps("believe you can and you're halfway there."));
 
 
 /*
