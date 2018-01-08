@@ -278,7 +278,10 @@ console.log(eatFood("Biggie", "Smalls", "Won Ton Soup"));
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
-
+function inchesToCentimeter(inches){
+	return inches * 2.54;
+}
+console.log(inchesToCentimeter(2));
 
 
 /*
