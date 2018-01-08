@@ -306,7 +306,10 @@ console.log(inchesToCentimeter(bango1));
  * This function will capitalize only the first letter in the variable phase above. 
  * Console.log your result.
 */
-
+function oneCap(str){
+	return str.charAt(0).toUpperCase() + str.slice(1);
+}
+console.log(oneCap("believe you can and you're halfway there"));
 
 
 /*
