@@ -182,7 +182,12 @@ console.log(checkQuotient());
  *   @variable Datatype: Number `bango3`
  *   @variable Datatype: Number `bango4`
  *   @variable Datatype: Number `bango5`
- 
+ */
+ var bango3 = 7;
+ var bango4 = 5;
+ var bango5 = 10;
+
+/*
  * #10
  * Function - addThenSubtract
  *   
@@ -196,7 +201,11 @@ console.log(checkQuotient());
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
+function addThenSubtract(num1, num2, num3){
+	var sum = add(num1, num2);
+	return subtract(sum, num3);
+}
+console.log(addThenSubtract(bango3, bango4, bango5));
 
 
 /*
