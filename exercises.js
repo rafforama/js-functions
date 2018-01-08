@@ -45,8 +45,11 @@ var bango2 = 4;
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
 */
-
-
+function add(num1, num2){
+	return num1 + num2;
+}
+var sum = add(bango1, bango2);
+console.log(sum);
 
 /*
  * #3
