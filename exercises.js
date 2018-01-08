@@ -85,10 +85,10 @@ console.log(difference);
  * Invoke the function and assign it to a variable named `product`.
  * Console.log `product` to test your code.
 */
-function product(num1, num2){
+function multiply(num1, num2){
 	return num1 * num2;
 }
-var product = product(bango1, bango2);
+var product = multiply(bango1, bango2);
 console.log(product);
 
 
@@ -221,8 +221,11 @@ console.log(addThenSubtract(bango3, bango4, bango5));
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
-
+function multiplyThenDivide(num1, num2, num3){
+	var multiplyTogether = multiply(num1, num2);
+	return product / num3;
+}
+console.log(multiplyThenDivide(bango3, bango4, bango5));
 
 /*
  * #12
