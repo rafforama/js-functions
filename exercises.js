@@ -64,6 +64,11 @@ console.log(sum);
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
+function subtract(num1, num2){
+	return num1 - num2;
+}
+var difference = subtract(bango1, bango2);
+console.log(difference);
 
 
 
@@ -80,7 +85,11 @@ console.log(sum);
  * Invoke the function and assign it to a variable named `product`.
  * Console.log `product` to test your code.
 */
-
+function product(num1, num2){
+	return num1 * num2;
+}
+var product = product(bango1, bango2);
+console.log(product);
 
 
 /*
